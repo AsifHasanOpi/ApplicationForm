@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<!-- DESIGNED AND DEVELOPED BY
+  ASIF HASAN OPI -->
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <title>Online Admission Form</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style media="screen">
+    @font-face {
+    font-family: myFirstFont;
+    src: url(fonts/LingwoodSerial-Regular.ttf);
+    }
+    </style>
+  </head>
+
+
+  <body style="background-image:linear-gradient(lightblue,white,lightgreen)">
+
+    <div class="header">
+      <h1> <i>Rising Sun K.G. & High School</i> </h1>
+      <p>Chandraghona, Rangunia, Chattogram.</p>
+      <h5> <u>Online Admission Form</u> </h5>
+    </div>
+ <br> <br>
+
+    <form class="form" action="index.html" method="post" target="_blank" font-size="2vw">
+
+        <fieldset>
+          <legend>Personal Information</legend>
+          <div class="row">
+            <div class="left">
+              <label for="name">Full Name:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="name" value="" autofocus>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="nationality">Nationality:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="nationality" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="smobile">Phone:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="smobile" value="" maxlength="11">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="email">E-Mail:</label>
+            </div>
+            <div class="right">
+              <input type="email" name="semail" value="">
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="left">
+              <label for="dob">Date of Birth:</label>
+            </div>
+            <div class="right">
+              <input type="date" name="dob" value="" max="2011-01-01" min="1998-01-01">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="class">Class:</label>
+            </div>
+            <div class="right">
+              <select class="select" name="class" size="5">
+                <option value="pre1">Pre 1</option>
+                <option value="pre2">Pre 2</option>
+                <option value="kg1">K.G. 1</option>
+                <option value="kg2">K.G. 2</option>
+                <option value="kg3">K.G. 3</option>
+                <option value="kg4">K.G. 4</option>
+                <option value="kg5">K.G. 5</option>
+              </select>
+            </div>
+          </div> <br>
+          <div class="row">
+            <div class="left">
+              <label for="gender">Gender:</label>
+            </div>
+            <div class="right">
+              <input type="radio" name="gender" value="Male" checked>Male
+              <input type="radio" name="gender" value="Female">Female
+              <input type="radio" name="gender" value="Others">Others
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="religion">Religion:</label>
+            </div>
+            <div class="right">
+              <select class="select" name="religion" size="3">
+                <option value="islam">Islam</option>
+                <option value="hindu">Hinduism</option>
+                <option value="buddha">Buddhist</option>
+                <option value="christian">Christian</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="pic">Photo:(Size-150X150px) <br> (Format-JPG/JPEG/GIF/PNG)</label>
+            </div> <br>
+            <div class="right">
+              <input type="file" name="pic" value="">
+            </div>
+          </div>
+        </fieldset>
+
+<br> <br>
+        <fieldset>
+          <legend>Guardian's Information</legend>
+          <div class="row">
+            <div class="left">
+              <label for="fname">Father's Full Name:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="fname" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="fnid">Father's NID No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="fnid" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="foccupation">Father's Occupation:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="foccupation" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="fmobile">Father's Mobile No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="fmobile" value="" maxlength="11">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="mname">Mother's Full Name:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="mname" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="mnid">Mother's NID No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="mnid" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="moccupation">Mother's Occupation:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="moccupation" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="mmobile">Mother's Mobile No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="mmobile" value="" maxlength="11">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="memail">Mother's E-Mail:</label>
+            </div>
+            <div class="right">
+              <input type="email" name="memail" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="gname">Guardian's Full Name: <br> (In absence of parents)</label>
+            </div>
+            <div class="right">
+              <input type="text" name="gname" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="gnid">Guardian's NID No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="gnid" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="goccupation">Guardian's Occupation:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="goccupation" value="">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="gmobile">Guardian's Mobile No.:</label>
+            </div>
+            <div class="right">
+              <input type="text" name="gmobile" value="" maxlength="11">
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="gemail">Guardian's E-Mail:</label>
+            </div>
+            <div class="right">
+              <input type="email" name="gemail" value="">
+            </div>
+          </div>
+        </fieldset>
+
+<br> <br>
+        <fieldset>
+          <legend>Address's Information</legend>
+          <div class="row">
+            <div class="left">
+              <label for="present_address">Present Address:</label>
+            </div>
+            <div class="right">
+              <textarea name="present_address" rows="5" cols="50"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="left">
+              <label for="permanent_address">Permanent Address:</label>
+            </div>
+            <div class="right">
+              <textarea name="permanent_address" rows="5" cols="50"></textarea>
+            </div>
+          </div>
+        </fieldset> <br>
+
+      <div class="last">
+        <div class="row">
+          <div class="left">
+            <label for="id">Application ID:</label>
+          </div>
+          <div class="right">
+            <input type="text" name="id" value="" maxlength="6">
+          </div>
+        </div>
+        <div class="row">
+          <div class="left">
+            <label for="trxid">bKash TrxID:</label>
+          </div>
+          <div class="right">
+            <input type="text" name="trxid" value="">
+          </div>
+        </div>
+
+        <br> <br>
+
+          <input type="checkbox" name="ques" value="agree">I state that the information given above is true. If any of them found false my admission will be cancelled.<br> <br>
+        </div>
+          <input type="submit" name="" value="Submit">
+          <input type="reset" name="" value="Reset">
+
+    </form>
+
+  </body>
+</html>
